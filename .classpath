@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="servlet/" kind="src" path="src/bean"/>
+	<classpathentry kind="src" path="src/db"/>
+	<classpathentry kind="src" path="src/servlet"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/MJDK">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
@@ -14,5 +16,7 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="F:/ggts-bundle/pivotal-tc-server-developer-3.1.0.RELEASE/tomcat-8.0.20.B.RELEASE/lib/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="F:/ggts-bundle/pivotal-tc-server-developer-3.1.0.RELEASE/tomcat-8.0.20.B.RELEASE/lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="F:/ggts-bundle/pivotal-tc-server-developer-3.1.0.RELEASE/tomcat-8.0.20.B.RELEASE/lib/commons-logging-1.0.4.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

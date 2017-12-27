@@ -1,20 +1,377 @@
+
+
+
+.clear:after{display:block;clear:both;content:".";
+    visibility:hidden;height:0}
+.clear{zoom:1}
 .nav > li > a{
     font-size: 16px;
     color: black;
 }
+
 .navbar{
     margin-bottom: 0px !important;
 }
-#headerBar a{
+#navbar a{
     color: black;
 }
-.topBar {
-    background-color:#666 !important;
-}
-.topBar a{
-    color: #FFF !important;
-}
-.form-signin{
-    padding: 15px;
+
+.customModuleRow{
     margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 1220px;
+    height: 118px;
+}
+.customModuleRow li{
+    list-style-type:none;
+}
+.customModuleRow a{
+    color: #0f0f0f;
+    text-decoration: none;
+    display:block
+}
+
+.customModuleRow ul a:hover{
+    text-decoration: none;
+}
+.customModuleRow ul>li>ul{
+    margin-left: 110px;
+}
+.customModuleRow ul>li>ul a{
+    width: 146px;
+    height: 43px;
+    line-height: 43px;
+}
+.customModuleRow .jiaju{
+    color: #000000;
+    font-size: 20px;
+    display: block;
+    width: 100px;
+    margin-left: 505px;
+}
+.customModuleRow ul>li>ul a:hover{
+    background-color:#d7002a;
+    text-decoration: none;
+    color: #ffffff;
+}
+.Furnitureproducts li{
+    font-family: 宋体;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 15px;
+    float: left;
+    color: #9d9d9d;
+}
+
+.top_menu{
+    background-color: #565656;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.topBarArea{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 30px;
+    height: 30px;
+    padding: 0;
+}
+.top_menu_left{
+    float: left;
+    margin-left: 30px;
+}
+.top_menu_right{
+    float: right;
+    margin-right: 30px;
+}
+.topBarArea a ,em{
+    color: #fff;
+    font-size: 12px;
+}
+.topBarArea a:hover{
+    color: #fff;cursor: pointer;
+}
+
+.customModule_product{
+
+    margin: 0 auto;
+    width: 1200px;
+
+}
+.product_border{
+    border: 9px solid #f3f2f0;
+}
+
+.productimage img{
+    width: 280px;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.productimage img:hover{
+    border: 5px solid #d30128;
+}
+
+.newPrice em{
+    color: #e4393c;
+}
+.pic-price{
+    padding: .2em 0;
+    overflow: hidden;
+    text-align: left;
+    line-height: 16px;
+    height: 16px;
+}
+.pic-title{
+    text-align: left;
+    margin-top: 10px;
+    width: 280px;
+
+}
+.pic-title a{
+    text-decoration: none;
+    color: #444;
+    display: block;
+    font-size: 13px;
+}
+
+.customModuleRowInner{
+
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 30px;
+    height: 473px;
+
+}
+.customModule{
+
+    float: left;
+    margin-left: 20px;
+    width: 420px;
+    height: 473px;
+}
+.MoHead{
+    border-bottom: 2px solid #d6002a;
+}
+
+.NameTxt a{
+    font-weight: 100;
+    font-size: 17px;
+    font-family: 微软雅黑;
+    text-decoration: none;
+    color: #0f0f0f;
+
+}
+.MoMore{
+
+    text-align: center;
+    width: 55px;
+    height: 25px;
+    line-height: 25px;
+    background-color:#d6002a ;
+    float: right;
+}
+.MoMore a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.inner{
+    margin-left: -30px;
+    margin-top: 20px;
+    list-style-image:url("http://aimg3.dlszywz.com/ev_user_module_content_tmp/2015_12_29/tmp1451376923_1033825_s.jpg");
+}
+.inner li{
+    width: 410px;height: 52px;
+}
+.inner a{
+    text-decoration: none;
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    line-height: 52px;
+}
+.mobody{
+    margin-left: 10px;
+
+}
+.pics{
+    float: left;
+    border: 8px solid #cccccc;
+    margin-top: 30px;
+}
+.mobody img:hover{
+    border: 8px solid #d30128;
+}
+.text{
+    float: right;
+    margin-top: 10px;
+    width: 350px;
+    line-height: 30px;
+    text-indent: 2.3em;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.text>p{
+    margin: 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    color: #666666;
+}
+
+
+
+.CModulePR{
+
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+}
+.customhangye{
+    margin-left: 18px;
+}
+
+.hangyedongtai li{
+    padding-top: 1px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #cccccc;
+    list-style-type: none;
+
+    width: 100% ;
+    height: 173px;
+}
+
+.hydtimg_one{
+
+    float: left;
+    border: 1px solid #cccccc;
+}
+
+.hydt-attr{
+    width: 350px;
+    margin-left: 210px;
+}
+.hydt-title{
+    line-height: 44px;
+    font-size: 14px;
+    height: 42px;
+}
+.hydt-title a{
+    text-decoration: none;
+    color: #333333;
+}
+.hydt-intro{
+    font-size: 12px;
+    color: #666;
+}
+
+.sjtdul{
+    padding: 0px;
+}
+.sjtdul img{
+    width: 260px;
+}
+
+.sjtdul li{
+    list-style-type: none;
+    float: left;
+    width: 50%;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    background-color: #f3f2f0;
+}
+.sjtd-title{
+    width: 278px;
+    margin: 0 auto  ;
+}
+.sjtd-name{
+    text-align: center;
+}
+.sjtd-name a{
+    cursor: pointer;
+    line-height: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #555555;
+    height: 14px;
+    display: block;
+}
+
+
+.customModule_jiajushijing{
+
+    padding-top: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.jjsj_title{
+    margin-right: 35px;
+    margin-left: 32px;
+    margin-top: 15px;
+    border-bottom: 2px solid #d6002a;
+}
+
+.jjsj_leftimg{
+    width: 320px;
+    height: 287px;
+
+    float: left;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+
+.jjsj_leftbtoom{
+    margin-top: 20px;
+}
+.jjsj_centerimg{
+
+    padding-top: 20px;
+}
+.jjsj_rightimg{
+    padding-right: 9px;
+    padding-top: 20px;
+    margin: 0;
+    float: right;
+}
+
+.footer{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 50px;
+    text-align: center;
+    color: #666;
+}
+.footer a{
+    text-decoration: none;
+    color: #666;
+}
+.footerConArea{
+    width: 1200px;
+    font-size: 14px;
+    line-height: 35px;
+}
+.footerNav em{
+    color: #666;
+}
+
+.dituContent{
+    margin: 0 auto;
+}
+.qiyeaddress em{
+    float: left;
+    color:#d6002a;
+}
+.qiyeaddress a{
+
+    display: block;
+    text-decoration: none;
+    color: #d6002a;
 }
